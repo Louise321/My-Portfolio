@@ -1,0 +1,152 @@
+﻿body
+{background-image: url("background.jpg");
+background-repeat:no-repeat;
+background-position: center;
+background-attachment: fixed;
+margin: 0px;
+height: 100%;
+background-size: cover;
+text-align:center;}
+
+.topnav 	{background-color: none;
+    		 overflow: hidden;
+             	 width: 100%;
+             	 position: fixed;}
+             
+.topnav a 	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+    		 float: right;
+    		 display: block;
+    		 color: black;
+    		 text-align: center;
+    		 padding: 14px 16px;
+    		 text-decoration: none;
+    		 font-size: 20px;
+             color: inherit;}
+
+.topnav b	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+   			 float: left;
+    		 display: block;
+      		 color: black;
+        	 text-align: left;
+    		 padding: 14px 16px;
+    		 font-size: 17px;}
+               
+.topnav a:hover {background-color: black;
+    		     color: white;}
+    
+h1 {font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+	color: black;
+	font-size: 40px;
+	position: absolute;
+	top: 50px;
+	left: 50px;}
+    
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  top: 50px;
+  left: 350px;}
+
+/* Caption text */s
+.text {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: relative;
+  top: 550px;
+  right: 420px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+  position: relative;
+  top: 0px;
+  left: 0px;}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6s;
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+/*@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}/*
+
+/*@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}/*
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .text {font-size: 11px}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+	position: relative;} 
+
+
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

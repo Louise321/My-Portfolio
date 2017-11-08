@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> My Portfolio </title>
+<link rel="shortcut icon" href="https://static1.squarespace.com/static/51c2786fe4b032aad7048807/52d05348e4b0ac9ecbf9c9e5/52d054e7e4b00cf967559b12/1429841596457/Apple+Logo+Square.png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+        body	{background-image: url(index5.png);
+    	 	 background-repeat: no-repeat;
+    	 	 background-position: right top;
+    	 	 background-attachment: fixed;
+         	 margin:0px;
+		 background-size: cover;
+		 text-align:center;}
+		
+    	h1	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+		 font-size: 40px;
+		 font-style: normal;
+		 font-weight: 500;
+         	 color: white;
+		 line-height: auto 0px;}
+
+    	h2	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+		 font-size: 40px;
+		 font-style: normal;
+		 font-weight: 500;
+         	 color: white;}
+           
+    .topnav 	{background-color: white;
+    			 overflow: hidden;
+             	 width: 100%;
+             	 position: fixed;}
+             
+    .topnav a 	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+    		 float: right;
+    		 color: black;
+    		 text-align: center;
+    		 padding: 14px ;
+    		 text-decoration: none;
+    		 font-size: 20px;}
+
+    .topnav b	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+   		 float: left;
+    		 
+      		 color: black;
+        	 text-align: left;
+    		 padding: 14px ;
+    		 font-size: 17px;}
+               
+    .topnav a:hover {background-color: black;
+    		     color: white;}
+
+.block {
+    margin: auto;
+    padding: 15px;
+    background-color: darkgrey;
+	width: auto;
+	height: 500px;}
+
+.container {
+    position: relative;
+    left: 80px;
+    width: 400px;
+	top: 50px;
+}
+
+.container2 {
+    position: relative;
+	float: right;
+    width: 400px;
+    bottom: 350px;
+    right: 80px;
+}
+
+.container3 {
+    position: relative;
+	float: right;
+    width: 400px;
+    bottom: 350px;
+    right: 175px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container2:hover .image {
+  opacity: 0.3;
+}
+
+.container2:hover .middle {
+  opacity: 1;
+}
+
+.container3:hover .image {
+  opacity: 0.3;
+}
+
+.container3:hover .middle {
+  opacity: 1;
+}
+
+.text {font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+  background-color: none;
+  color: black;
+  font-size: 30px;
+}
+
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+.icon {position: relative;
+		left: 750px;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.icon {float: right;}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+</style>   
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav" >	
+  <a href=Contact.html>Contact</a>
+  <a href=Animal.html>Animal</a>
+  <a href=Interior.html>Interior Design</a>
+  <a href=BlackWhite.html>Black & White</a>
+  <a style="float:left" href=index.html >My Portfolio.</a>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<img src="myportfolio4.png" width="999" height="550">
+
+
+<div class="block">
+<div class="container">
+	<a href="BlackWhite.html">
+    <img src="camera4.png" alt="camera" class="image" style="height: 400px;">
+  <div class="middle">
+    <div class="text">Black & White</div>
+  </div>
+  </a>
+  </div>
+  
+<div class="container2">
+  <a href="Interior.html">
+    <img src="livingroom4.png" alt="livingroom" class="image" style="height: 400px;">
+  <div class="middle">
+    <div class="text">Interior Design</div>
+  </div>
+  </a>
+ </div>
+  
+<div class="container3">
+  <a href="Animal.html">
+    <img src="dog2.png" alt="dog" class="image" style="height: 400px;">
+  <div class="middle">
+    <div class="text">Animals</div>
+  </div>
+  </a>
+ </div>
+ </div>
+
+ <br><br><br><br>
+
+ <footer class="footer-distributed">
+
+ <div class="icon">
+	<a href="https://www.facebook.com/profile.php?id=100015392465442" class="fa fa-facebook"></a>
+	<a href="https://www.instagram.com/louiseliann/" class="fa fa-instagram"></a>
+ </div>
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="BlackWhite.html">Black & White</a>
+					·
+					<a href="Interior.html">Interior Design</a>
+					·
+					<a href="About.html">Animals</a>
+					·
+					<a href="Contact.html">Contact</a>
+				</p>
+
+				<p>My Portfolio; 2017</p>
+			</div>
+
+		</footer>
+</body>
+</html>
+
